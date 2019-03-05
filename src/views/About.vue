@@ -3,10 +3,6 @@
         <h1 class="title is-1">
             About
         </h1>
-        <p class="spacer-bottom">
-            Charcoal is a simple starter template using the new
-            <code>Vue CLI 3.0</code> and styled with <code>Bulma</code>.
-        </p>
         <p class="content">
           <ul>
             <li>Technical Product Development</li>
@@ -55,7 +51,6 @@
 </template>
 
 <script>
-import { mapActions, mapGetters } from 'vuex'
 
 import ChButton from '@/ch-components/elements/Button.vue'
 import ChButtonGroup from '@/ch-components/elements/ButtonGroup.vue'
@@ -66,12 +61,6 @@ export default {
         ChButton,
         ChButtonGroup,
         ChSection
-    },
-    computed: {
-        ...mapGetters(['count'])
-    },
-    methods: {
-        ...mapActions(['decrement', 'increment'])
     }
 }
 </script>

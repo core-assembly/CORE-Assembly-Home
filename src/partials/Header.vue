@@ -21,15 +21,11 @@
 </template>
 
 <script>
-import { mapGetters, mapActions } from 'vuex';
 import ChNavbar from '../ch-components/components/Navbar.vue'
 
 export default {
     components: {
         ChNavbar
-    },
-    computed: {
-        ...mapGetters(['email'])
     }
 }
 </script>
