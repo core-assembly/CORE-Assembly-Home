@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "deploy": "node ./node_modules/vue-gh-pages/index.js",
+    "deploy": "node ./node_modules/vue-gh-pages/index.js -b master",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
